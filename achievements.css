@@ -1,0 +1,419 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+/*---Navigation---*/
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand img
+{
+  height: 90px;
+  padding-left: 30px;
+}
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+.navbar-nav li a
+{
+  float: right;
+  text-align: left;
+}
+#nav-bar ul li a:hover{
+  color: #FFA500!important;
+}
+.navbar
+{
+  background: #fff;
+}
+.navbar-toggler
+{
+  border: none!important;
+}
+.nav-link
+{
+  color: #555!important;
+  font-weight: 600;
+  font-size: 14px;
+}
+/*Competitions*/
+#Competitions
+{
+	background-color: #000000;
+	border: 7px;
+	padding: 0.5em;
+
+}
+#Competitions h1
+{ 
+	text-align: center;
+  	color: #fff !important;
+  	padding-bottom: 10px;
+}
+h1::after
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 370px;
+  margin: 20px auto 5px;
+}
+h1::before
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 370px;
+  margin: 20px auto 5px;
+}
+.SRM
+{
+	padding-left: 200px;
+	padding-bottom: 50px;
+} 		
+#Competitions p
+{
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: 8px 9px 10px #333;
+  border: 5px;
+  padding: 0.5em;
+  border-style: solid;
+  border-color: #ADFF2F;
+}
+/*Workshops*/
+#Workshops
+{
+	background-color: #fff;
+	border: 7px;
+	padding: 0.5em;
+
+}
+#Workshops h1
+{ 
+	text-align: center;
+  	color: #000000 !important;
+  	padding-bottom: 10px;
+}
+#Workshops h1::after
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 270px;
+  margin: 20px auto 5px;
+}
+#Workshops h1::before
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 270px;
+  margin: 20px auto 5px;
+}
+.SRM
+{
+	padding-left: 200px;
+	padding-bottom: 50px;
+} 		
+#Workshops p
+{
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: 8px 9px 10px #333;
+  border: 5px;
+  padding: 0.5em;
+  border-style: solid;
+  border-color: #FFD700; /*Gold*/
+}
+/*Hackathons*/
+#Hackathons
+{
+	background-color: #000000;
+	border: 7px;
+	padding: 0.5em;
+
+}
+#Hackathons h1
+{ 
+	text-align: center;
+  	color: #fff !important;
+  	padding-bottom: 10px;
+}
+#Hackathons h1::after
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 270px;
+  margin: 20px auto 5px;
+}
+#Hackathons h1::before
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 270px;
+  margin: 20px auto 5px;
+}
+.SRM
+{
+	padding-left: 200px;
+	padding-bottom: 50px;
+} 		
+#Hackathons p
+{
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: 8px 9px 10px #333;
+  border: 5px;
+  padding: 0.5em;
+  border-style: solid;
+  border-color: #FFC0CB; /*Gold*/
+}
+/*Certificates*/
+#Certificates
+{
+	background-color: #ffffff;
+	border: 7px;
+	padding: 0.5em;
+
+}
+#Certificates h1
+{ 
+	text-align: center;
+  	color: #000000 !important;
+  	padding-bottom: 10px;
+}
+#Certificates h1::after
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 400px;
+  margin: 20px auto 5px;
+}
+#Certificates h1::before
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 400px;
+  margin: 20px auto 5px;
+}
+.cert
+{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 600;
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+.cer
+{
+	padding-bottom: 50px;
+} 
+/*Japanese*/
+#Japanese h1
+{ 
+	text-align: center;
+  	color: #000000 !important;
+  	padding-bottom: 10px;
+}
+#Japanese h1::after
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 350px;
+  margin: 20px auto 5px;
+}
+#Japanese h1::before
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 350px;
+  margin: 20px auto 5px;
+}		
+.nihon
+{
+  position: absolute;
+  padding-left: 100px;
+  height: 600px;
+  z-index: 2;
+}
+.nipon
+{
+  position: relative;
+  opacity: 0.1;
+  display: block;
+  padding-left: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  z-index: 1;
+}
+.txt
+{
+	position: absolute;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 600;
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+/*Inplant*/
+#inplant
+{
+	background-color: #000000;
+	border: 7px;
+	padding: 0.5em;
+
+}
+#inplant h1
+{ 
+	text-align: center;
+  	color: #fff !important;
+  	padding-bottom: 10px;
+}
+#inplant h1::after
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 370px;
+  margin: 20px auto 5px;
+}
+#inplant h1::before
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 370px;
+  margin: 20px auto 5px;
+}
+.SRM
+{
+	padding-left: 200px;
+	padding-bottom: 50px;
+} 		
+#inplant p
+{
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: 8px 9px 10px #333;
+  border: 5px;
+  padding: 0.5em;
+  border-style: solid;
+  border-color: #FFD700; /*Gold*/
+}
+/*---Porjects---*/
+#projects
+{
+	background-color: #fff;
+	border: 7px;
+	padding: 0.5em;
+
+}
+#projects h1
+{ 
+	text-align: center;
+  	color: #000000 !important;
+  	padding-bottom: 10px;
+}
+#projects h1::after
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 180px;
+  margin: 20px auto 5px;
+}
+#projects h1::before
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 180px;
+  margin: 20px auto 5px;
+}
+.SRM
+{
+	padding-left: 200px;
+	padding-bottom: 50px;
+} 		
+#projects p
+{
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: 8px 9px 10px #333;
+  border: 5px;
+  padding: 0.5em;
+  border-style: solid;
+  border-color: #FFC0CB; /*Gold*/
+}
+/*previous page*/
+.prepage
+ { 
+ 	position: absolute;
+ 	right: 0;
+ 	font-size: 15px;
+ 	font-family: "Times New Roman", Times, serif;
+ 	color:#000000; 	
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	padding-left: 10px;	
+ 	padding-right: 10px;
+	border-radius: 30px;
+ }
+.prepage:hover
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px solid #FFD700;
+ 	border-radius: 8px;	
+	
+}
+/*---footer---*/
+#footer
+{
+  background: #333;
+  color: #fff;
+  padding: 12px;
+} 
+.fa-heart-o
+{
+  margin: 3px;
+  color: red;
+}
