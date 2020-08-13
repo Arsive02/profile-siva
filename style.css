@@ -43,14 +43,27 @@
 }
 
 /*----Slider-----*/
-#slider
+#Slider
 {
   width: 100%;
 }
 .d-block
 {
-	width: 100%;
+	display: inline-block;	
+	width: 100%
 	margin: auto;
+}
+.img-fluid1
+{
+	display: inline-block;
+	width: 100%;
+}
+.img-fluid2
+{
+	display: inline-block;
+	width: 1400px;
+	height: 700px;
+	padding-left: 200px;	
 }
 .carousel-caption h5
 {
@@ -101,6 +114,11 @@
  	font-family: "Times New Roman", Times, serif;
  	border: 2px solid blue;
  	border-radius: 25px;
+}
+#Readmore::after
+{
+	top: 0;
+	right: 0;
 }
 #more 
 {
